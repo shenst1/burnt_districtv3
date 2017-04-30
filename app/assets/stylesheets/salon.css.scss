@@ -1,0 +1,82 @@
+// Place all the styles related to the salon controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$primary-brand: #301030;
+
+$default-gray: #7f8c8d;
+$base-text-color: #ecf0f1;
+$base-font-size-p: 1.1em;
+
+$transparent-white: rgba(255, 255, 255, 0.8);
+
+$default-margin: 15px;
+
+.list-group-item .circle {
+  -webkit-filter: grayscale(0.7);
+  -moz-filter: grayscale(0.7);
+  filter: grayscale;
+}
+
+.list-group {
+  text-align: left;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-header {
+  #textContact {
+    display: none;
+  }
+}
+.nav-tabs, .navbar-default {
+  background-color: $primary-brand !important
+}
+
+.brand-logo {
+  float: left;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 1px;
+  margin: 7px 0px 7px 14px;
+}
+
+.group-photo {
+  background: url(homepage-background.jpg) no-repeat;
+  background-size: 100%;
+  height: calc(60vh + 10vh);
+  background-position: 50% 50%;
+  position: relative;
+  .group-photo-overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .8);
+    color: black;
+    padding: 20px 40px;
+  }
+}
+.popover {
+  background-color: $primary-brand !important;
+}
+.popover-title {
+  color: black;
+  text-align: center;
+}
+.popover-content {
+  background-color: $primary-brand;
+}
+
+#address {
+  float: right;
+}
+
+.modal-content {
+  margin-top: 0px !important;
+}
+
+.map-photo {
+  width: 100%;
+  margin-bottom: $default-margin;
+}

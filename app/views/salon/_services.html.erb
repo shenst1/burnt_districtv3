@@ -1,0 +1,25 @@
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#hair" data-toggle="tab">Hair</a></li>
+    <li><a href="#lashes" data-toggle="tab">Eyelash Extensions</a></li>
+    <li><a href="#spa" data-toggle="tab">Facial Waxing</a></li>
+    <li><a href="#bridal" data-toggle="tab">Special Occasion</a></li>
+    <li><a href="#staff" data-toggle="tab">About Us</a></li>
+    <li id="address" data-toggle="modal" data-target="#complete-dialog" title="Location & Hours"><a href="javascript:void(0)">96 Columbia St.</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div id="hair" class="info tab-pane fade in active">
+    <%= render 'salon/services/hairservices' %>
+   </div>
+  <div id="spa" class="info tab-pane fade">
+     <%= render 'salon/services/spa_services' %>
+  </div>
+  <div id="bridal" class="info tab-pane fade">
+     <%= render 'salon/services/bridal' %>
+  </div>
+  <div id="lashes" class="info tab-pane fade">
+     <%= render 'salon/services/lashes' %>
+  </div>
+  <div id="staff" class="info tab-pane fade">
+    <%= render 'salon/staff' %>
+  </div>
+</div>

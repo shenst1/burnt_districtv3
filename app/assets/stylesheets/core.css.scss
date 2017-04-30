@@ -1,0 +1,126 @@
+@import "mixins";
+
+
+/* breakpoint rules */
+/* ------------------------ */
+/* tablet portrait */
+@media  #{$tablet_portrait} {
+  .group-photo {
+    background: url(homepage-background.jpg) no-repeat;
+    background-position: 50% 50%;
+    height: 70vh;
+    width: 100%;
+  }
+  .navbar-header {
+    #phoneContact {
+      display: none;
+    }
+    #textContact {
+      display: block;
+    }
+  }
+}
+
+/* tablet landscape */
+@media #{$tablet_landscape} {
+  .group-photo {
+    background: url(homepage-background.jpg) no-repeat;
+    background-size: cover;
+    height: 450px;
+  }
+  .navbar-header {
+    #phoneContact {
+      display: none;
+    }
+    #textContact {
+      display: block;
+    }
+  }
+}
+@media #{$mobile} {
+  .group-photo {
+    background: url(homepage-background.jpg) no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 70vh;
+  }
+  .navbar-header {
+    .title {
+      display: none;
+    }
+  }
+  .navbar-header {
+    #phoneContact {
+      display: none;
+    }
+    #textContact {
+      display: block;
+    }
+  }
+  #staff .list-group .list-group-item .row-content .least-content {
+    position: initial !important;
+  }
+}
+
+/* mobile portrait */
+@media #{$mobile_portrait} {
+  .group-photo {
+    background: url(homepage-background.jpg) no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 70vh;
+  }
+  .navbar-header {
+    .title {
+      display: none;
+    }
+  }
+  .navbar-header {
+    #phoneContact {
+      display: none;
+    }
+    #textContact {
+      display: block;
+    }
+  }
+  #staff .list-group .list-group-item .row-content .least-content {
+    position: initial !important;
+  }
+}
+
+/* mobile landscape */
+@media #{$mobile_landscape} {
+  .group-photo {
+    background: url(homepage-background.jpg) no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+  }
+  .navbar-header {
+    #phoneContact {
+      display: none;
+    }
+    #textContact {
+      display: block;
+    }
+  }
+}
+
+
+/* General layout / design stuff */
+/* ----------------------------- */
+
+
+body {
+  text-align: left;
+  background: url('tweed.png') repeat fixed top center;
+}
+
+.row {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1em;
+}
