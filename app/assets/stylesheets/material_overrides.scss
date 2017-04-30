@@ -5,3 +5,6 @@
 .navbar .navbar-brand {
   padding: 20px 15px;
 }
+.list-group .list-group-item .row-content .list-group-item-heading {
+  width: calc(100% - 36px);
+}

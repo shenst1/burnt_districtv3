@@ -1,26 +1,11 @@
 <div class="well row">
-  <div class="col-lg-4 col-md-6">
-    <div class="list-group">
-        <div class="list-group-item">
-            <div class="row-picture">
-                <%= image_tag("services/eyelash.png", class: "circle") %>
-            </div>
-            <div class="row-content">
-                <div class="least-content">$130</div>
-                <h4 class="list-group-item-heading">Lash Extensions</h4>
-            </div>
-        </div>
-        <div class="list-group-separator"></div>
-        <div class="list-group-item">
-            <div class="row-picture">
-                <%= image_tag("services/eyelash-fill.png", class: "circle") %>
-            </div>
-            <div class="row-content">
-                <div class="least-content">$70</div>
-                <h4 class="list-group-item-heading">Extensions Fill</h4>
-            </div>
-        </div>
-    </div>
-  </div>
+  <div class="list-group">
+    <%= render "service", url: "", name: "Eyelash Extensions - Fill", price: "50", description: "1-2 week fill" %>
+    <%= render "service", url: "", name: "Eyelash Extensions - Extended Fill", price: "75", description: "2-4 week fill" %>
+    <%= render "service", url: "", name: "Eyelash Extensions - Full Set", price: "150", description: "Longer than 4 weeks requires a full set" %>
+    <%= render "service", url: "", name: "Lash Tint", price: "20", description: "Lasts about 6-8 weeks" %>
+    <%= render "service", url: "", name: "Volume Lash - Fill ", price: "65", description: "1-2 week fill" %>
+    <%= render "service", url: "", name: "Volume Lash - Extended Fill", price: "90", description: "2-4 week fill" %>
+    <%= render "service", url: "", name: "Volume Lash - Full Set", price: "185", description: "Longer than 4 weeks requires a full set" %>
+ </div>
 </div>
-
