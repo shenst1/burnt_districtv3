@@ -6,8 +6,8 @@
 /* tablet portrait */
 @media  #{$tablet_portrait} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-position: 50% 50%;
+    background: url(pier.jpg) no-repeat;
+    background-position: 50% 10%;
     height: 70vh;
     width: 100%;
   }
@@ -24,7 +24,7 @@
 /* tablet landscape */
 @media #{$tablet_landscape} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
+    background: url(pier.jpg) no-repeat;
     background-size: cover;
     height: 450px;
   }
@@ -39,8 +39,8 @@
 }
 @media #{$mobile} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-position: 50% 50%;
+    background: url(pier.jpg) no-repeat;
+    background-position: 50% 10%;
     width: 100%;
     height: 70vh;
   }
@@ -65,8 +65,8 @@
 /* mobile portrait */
 @media #{$mobile_portrait} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-position: 50% 50%;
+    background: url(pier.jpg) no-repeat;
+    background-position: 50% 10%;
     width: 100%;
     height: 70vh;
   }
@@ -91,7 +91,7 @@
 /* mobile landscape */
 @media #{$mobile_landscape} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
+    background: url(pier.jpg) no-repeat;
     background-size: cover;
     height: 450px;
     width: 100%;
