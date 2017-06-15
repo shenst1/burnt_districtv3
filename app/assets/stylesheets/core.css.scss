@@ -6,10 +6,8 @@
 /* tablet portrait */
 @media  #{$tablet_portrait} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 10%;
     height: 70vh;
-    width: 100%;
   }
   .navbar-header {
     #phoneContact {
@@ -24,8 +22,6 @@
 /* tablet landscape */
 @media #{$tablet_landscape} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-size: cover;
     height: 450px;
   }
   .navbar-header {
@@ -39,8 +35,7 @@
 }
 @media #{$mobile} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 9%;
     width: 100%;
     height: 70vh;
   }
@@ -65,9 +60,7 @@
 /* mobile portrait */
 @media #{$mobile_portrait} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-position: 50% 50%;
-    width: 100%;
+    background-position: 50% 10%;
     height: 70vh;
   }
   .navbar-header {
@@ -91,10 +84,7 @@
 /* mobile landscape */
 @media #{$mobile_landscape} {
   .group-photo {
-    background: url(homepage-background.jpg) no-repeat;
-    background-size: cover;
     height: 450px;
-    width: 100%;
   }
   .navbar-header {
     #phoneContact {

@@ -42,10 +42,10 @@ $default-margin: 15px;
 }
 
 .group-photo {
-  background: url(homepage-background.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  width: 100%;
   height: calc(60vh + 10vh);
-  background-position: 50% 50%;
+  background-position: 50% 0%;
   position: relative;
   .group-photo-overlay {
     position: absolute;
